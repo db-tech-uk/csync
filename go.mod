@@ -1,3 +1,3 @@
-module github.com/rockwell-uk/csync
+module github.com/db-tech-uk/csync
 
 go 1.18

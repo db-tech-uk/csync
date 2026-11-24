@@ -3,7 +3,7 @@ package mutex
 import (
 	"testing"
 
-	"github.com/rockwell-uk/csync/waitgroup"
+	"github.com/db-tech-uk/csync/waitgroup"
 )
 
 func TestWaitgroup(t *testing.T) {
