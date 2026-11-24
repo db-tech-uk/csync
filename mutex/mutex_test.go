@@ -8,7 +8,7 @@ import (
 
 func TestWaitgroup(t *testing.T) {
 	var ctr int
-	var loops int = 1000
+	loops := 1000
 
 	for i := 0; i < loops; i++ {
 		Lock()
@@ -22,10 +22,10 @@ func TestWaitgroup(t *testing.T) {
 }
 
 func TestWaitgroupFanout(t *testing.T) {
-	var wg *waitgroup.WaitGroup = waitgroup.New()
+	wg := waitgroup.New()
 
 	var ctr int
-	var loops int = 1000
+	loops := 1000
 
 	for i := 0; i < loops; i++ {
 		wg.Add(1)

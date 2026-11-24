@@ -16,7 +16,7 @@ const (
 
 func New() *WaitGroup {
 	var n int
-	var wg WaitGroup = WaitGroup{
+	wg := WaitGroup{
 		ops: make(chan op),
 	}
 
